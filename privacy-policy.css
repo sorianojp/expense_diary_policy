@@ -72,7 +72,7 @@ a {
 }
 
 .page {
-  width: min(1060px, calc(100% - 32px));
+  width: min(1240px, calc(100% - 32px));
   margin: 0 auto;
   padding: 22px 0 56px;
 }
@@ -264,7 +264,7 @@ a {
 
 @media (max-width: 640px) {
   .page {
-    width: min(100% - 24px, 1060px);
+    width: min(100% - 20px, 1240px);
     padding: 16px 0 40px;
   }
 
