@@ -5,116 +5,216 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta
     name="description"
-    content="Privacy Policy for Expense Diary, a simple expense tracker."
+    content="Expense Diary is a polished expense tracker website with fast logging, category organization, spending insights, and a simple local-first privacy story."
   >
-  <title>Expense Diary Privacy Policy</title>
+  <title>Expense Diary - Expense Tracker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
   <link rel="icon" type="image/png" href="icon.png">
-  <link rel="stylesheet" href="privacy-policy.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <main class="page">
-    <section class="hero">
-      <div class="brand">
-        <img class="brand-logo" src="icon.png" alt="Expense Diary logo">
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Expense Diary home">
+        <img class="brand-logo" src="icon.png" alt="Expense Diary app icon">
         <div class="brand-copy">
-          <p class="eyebrow">Expense Diary</p>
-          <p class="brand-tagline">Personal expense tracking made simple</p>
+          <p class="brand-name">Expense Diary</p>
+          <p class="brand-subtitle">Expense Tracker</p>
         </div>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="#features">Features</a>
+        <a href="#screens">Screens</a>
+        <a href="#privacy">Privacy</a>
+        <a
+          class="nav-store"
+          href="https://apps.apple.com/us/app/expense-diary-expense-tracker/id6760805756"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span class="nav-store-icon" aria-hidden="true"></span>
+          App Store
+        </a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Expense tracking website</p>
+          <h1>Track spending without the clutter.</h1>
+          <p class="hero-lead">
+            Expense Diary is built for fast entries, clear categories, and
+            lightweight reviews. It keeps the money-tracking flow simple so the
+            app feels useful every day, not just at the end of the month.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#screens">Explore screens</a>
+            <a class="button button-secondary" href="privacy.html">Privacy policy</a>
+          </div>
+
+          <div class="hero-badges" aria-label="Key promises">
+            <span>No ads</span>
+            <span>No subscriptions</span>
+            <span>Local-first</span>
+          </div>
+
+          <ul class="hero-points">
+            <li>Quick add flow for expenses, bills, and one-off purchases</li>
+            <li>Organize categories and compare monthly totals at a glance</li>
+            <li>Focus on clarity instead of extra features you never use</li>
+          </ul>
+        </div>
+
+        <div class="hero-visual reveal" aria-hidden="true">
+          <div class="hero-glow"></div>
+          <div class="device-card device-main">
+            <img src="app_screens/1.png" alt="">
+          </div>
+          <div class="device-card device-top">
+            <img src="app_screens/4.png" alt="">
+          </div>
+          <div class="device-card device-bottom">
+            <img src="app_screens/6.png" alt="">
+          </div>
+          <div class="note-card note-top">
+            <span class="note-label">Dashboard</span>
+            <strong>Monthly spend at a glance</strong>
+          </div>
+          <div class="note-card note-bottom">
+            <span class="note-label">Quick add</span>
+            <strong>Capture expenses in seconds</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="signal-strip section" aria-label="Core promises">
+        <article class="signal-card reveal">
+          <p class="signal-kicker">01</p>
+          <h2>Fast entry</h2>
+          <p>Add expenses quickly from a clean, focused flow that keeps momentum intact.</p>
+        </article>
+        <article class="signal-card reveal">
+          <p class="signal-kicker">02</p>
+          <h2>Clear organization</h2>
+          <p>Categories stay easy to understand, so later review work is simple instead of messy.</p>
+        </article>
+        <article class="signal-card reveal">
+          <p class="signal-kicker">03</p>
+          <h2>Useful insights</h2>
+          <p>See totals, average spend, and monthly changes without digging through clutter.</p>
+        </article>
+      </section>
+
+      <section class="section feature-section" id="features">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Core features</p>
+          <h2>Designed around the screens you actually come back to.</h2>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card reveal">
+            <p class="feature-number">01</p>
+            <h3>Dashboard first</h3>
+            <p>
+              Start with a summary that surfaces monthly spend, filters, and the
+              next action without a cluttered home screen.
+            </p>
+          </article>
+          <article class="feature-card reveal">
+            <p class="feature-number">02</p>
+            <h3>Organize every expense</h3>
+            <p>
+              Category picking is straightforward, so each entry stays easy to
+              understand when you review spending later.
+            </p>
+          </article>
+          <article class="feature-card reveal">
+            <p class="feature-number">03</p>
+            <h3>Spending insights</h3>
+            <p>
+              Average expense, biggest purchase, and month-over-month changes
+              are presented in a format that is quick to scan.
+            </p>
+          </article>
+          <article class="feature-card feature-card-tall reveal">
+            <p class="feature-number">04</p>
+            <h3>Simple by design</h3>
+            <p>
+              Expense Diary keeps the promise visible in the product shots: no
+              complex features, no ads, no subscriptions, and no data collected
+              by default.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section screens-section" id="screens">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Product tour</p>
+          <h2>A closer look at the app screens.</h2>
+        </div>
+
+        <div class="screen-grid">
+          <figure class="screen-card reveal">
+            <img src="app_screens/1.png" alt="Dashboard screen showing monthly expenses and filters" loading="eager">
+            <figcaption>Dashboard view with monthly totals and period filters.</figcaption>
+          </figure>
+          <figure class="screen-card reveal">
+            <img src="app_screens/6.png" alt="Widget view showing quick add and today's spending" loading="lazy">
+            <figcaption>Widget-style quick add flow for fast expense capture.</figcaption>
+          </figure>
+          <figure class="screen-card reveal">
+            <img src="app_screens/4.png" alt="Category picker screen for organizing expenses" loading="lazy">
+            <figcaption>Choose or add a category while logging a new expense.</figcaption>
+          </figure>
+          <figure class="screen-card reveal">
+            <img src="app_screens/3.png" alt="Spending insights screen with average expense and month comparison" loading="lazy">
+            <figcaption>Spending insights with average spend and month-to-month comparison.</figcaption>
+          </figure>
+          <figure class="screen-card reveal">
+            <img src="app_screens/5.png" alt="All spending categories screen showing ranked categories and amounts" loading="lazy">
+            <figcaption>Ranked categories that make monthly review faster.</figcaption>
+          </figure>
+          <figure class="screen-card reveal">
+            <img src="app_screens/2.png" alt="Simple product message screen highlighting the app's lightweight approach" loading="lazy">
+            <figcaption>Simple product promise: no ads, no subscriptions, no unnecessary complexity.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="privacy-strip section" id="privacy">
+        <div class="privacy-copy reveal">
+          <p class="eyebrow">Privacy and trust</p>
+          <h2>Made for personal tracking with a simple privacy story.</h2>
+          <p>
+            Expense Diary is positioned as a local-first expense tracker.
+            Expense entries stay on the device, reminders are handled locally,
+            and the app does not depend on user accounts to work.
+          </p>
+        </div>
+        <div class="privacy-actions reveal">
+          <a class="button button-primary" href="privacy.html">Read privacy policy</a>
+          <a class="button button-ghost" href="mailto:johnpaul.soriano.6197@gmail.com">Contact support</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Expense Diary - Expense Tracker</p>
+      <div class="footer-links">
+        <a href="#features">Features</a>
+        <a href="#screens">Screens</a>
+        <a href="https://apps.apple.com/us/app/expense-diary-expense-tracker/id6760805756" target="_blank" rel="noopener noreferrer">App Store</a>
+        <a href="privacy.html">Privacy policy</a>
       </div>
-      <h1>Privacy Policy</h1>
-      <p class="lead">
-        Expense Diary is a simple expense tracker designed to help users record
-        daily expenses, review summaries, and receive reminder notifications.
-      </p>
-      <p class="meta">Effective date: March 19, 2026</p>
-    </section>
-
-    <section class="card">
-      <h2>1. Information We Collect</h2>
-      <p>
-        Expense Diary does not require account registration and does not collect
-        personal information such as your name, email address, phone number, or
-        payment information.
-      </p>
-      <p>
-        The expense data you enter, such as titles, amounts, dates, categories,
-        and preferences, is stored locally on your device.
-      </p>
-    </section>
-
-    <section class="card">
-      <h2>2. How Your Data Is Used</h2>
-      <p>Your data is used only to provide the app's features, including:</p>
-      <ul>
-        <li>saving your expense entries on your device</li>
-        <li>showing summaries, spending insights, and category breakdowns</li>
-        <li>remembering your preferences such as currency and custom categories</li>
-        <li>sending local reminder notifications when enabled on your device</li>
-      </ul>
-    </section>
-
-    <section class="card">
-      <h2>3. Data Storage</h2>
-      <p>
-        Expense Diary stores data locally on your device using on-device storage.
-        We do not operate a remote server for storing your expense data.
-      </p>
-      <p>
-        If you uninstall the app, locally stored data may be removed from your
-        device unless your operating system or backup settings preserve it.
-      </p>
-    </section>
-
-    <section class="card">
-      <h2>4. Notifications</h2>
-      <p>
-        Expense Diary may request notification permission so it can send local
-        reminders at scheduled times to help you remember to log expenses.
-      </p>
-      <p>
-        These notifications are generated locally on your device. We do not use
-        remote push servers to send notification content.
-      </p>
-    </section>
-
-    <section class="card">
-      <h2>5. Data Sharing</h2>
-      <p>
-        We do not sell, rent, or share your expense data with third parties.
-      </p>
-      <p>
-        Expense Diary does not currently include user accounts, cloud sync, or
-        in-app advertising.
-      </p>
-    </section>
-
-    <section class="card">
-      <h2>6. Children's Privacy</h2>
-      <p>
-        Expense Diary is not directed to children under 18, and we do not
-        knowingly collect personal information from children.
-      </p>
-    </section>
-
-    <section class="card">
-      <h2>7. Changes to This Policy</h2>
-      <p>
-        We may update this Privacy Policy from time to time. Any changes will be
-        posted on this page with an updated effective date.
-      </p>
-    </section>
-
-    <section class="card">
-      <h2>8. Contact</h2>
-      <p>
-        If you have questions about this Privacy Policy, you can contact us at:
-      </p>
-      <p class="contact">johnpaul.soriano.6197@gmail.com</p>
-      <p class="note">
-        Replace the contact email above with your real support email before
-        publishing.
-      </p>
-    </section>
-  </main>
+    </footer>
+  </div>
 </body>
 </html>
